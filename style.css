@@ -108,3 +108,21 @@
     overflow: hidden; /* For Animation ScrollReveal */
   }
 }
+
+/* Header & Nav  */
+.header {
+  position: fixeed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: var(--z-fixed);
+  transition: 0.4s;
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
