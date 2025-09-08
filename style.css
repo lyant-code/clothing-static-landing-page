@@ -111,7 +111,7 @@
 
 /* Header & Nav  */
 .header {
-  position: fixeed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -124,5 +124,30 @@
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__menu {
+    position: fixed;
+    bottom: 1.4rem;
+    background-color: var(--body-color);
+    box-shadow: 0 4px 12px hsla(220, 18%, 40%, 0.15);
+    width: 92%;
+    left: 0;
+    right: 0;
+    padding: 1.11rem 2.2rem;
+    border-radius: 0.4rem;
+  }
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
