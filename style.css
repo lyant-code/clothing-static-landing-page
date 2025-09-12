@@ -141,7 +141,7 @@
     width: 92%;
     left: 0;
     right: 0;
-    padding: 1.11rem 2.2rem;
+    padding: 1.11rem 2.6rem;
     border-radius: 0.4rem;
   }
 }
@@ -150,4 +150,19 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.nav__link {
+  color: var(--text-color-light);
+  font-weight: var(--font-medium);
+  display: grid;
+  row-gap: 0.22rem;
+}
+
+.nav__link i {
+  font-size: 1.3rem;
+}
+
+.nav__link span {
+  font-size: 0.711rem;
 }
