@@ -166,3 +166,24 @@
 .nav__link span {
   font-size: 0.711rem;
 }
+
+/* HOME */
+.home {
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
+
+.home__container {
+  padding: 3.5rem 0 0.9rem;
+  row-gap: 8.3rem;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  font-weight: 400;
+}
+
+.home__description {
+  color: var(--title-color);
+  margin: 0.9rem 0 1.8rem;
+}
