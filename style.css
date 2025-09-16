@@ -187,3 +187,21 @@
   color: var(--title-color);
   margin: 0.9rem 0 1.8rem;
 }
+
+.home__title,
+.home__description {
+  line-height: 135%;
+}
+
+.home__images {
+  position: relative;
+  width: 303px;
+  justify-self: center;
+}
+
+.home__images img:nth-child(1) {
+  width: 225px;
+  position: absolute;
+  right: -1.3rem;
+  top: -9.3rem;
+}
