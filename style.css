@@ -167,6 +167,12 @@
   font-size: 0.711rem;
 }
 
+/* Change Background Header */
+.scroll-header {
+  background-color: var(--body-color);
+  box-shadow: 0 1px 3px hsla(220, 18%, 40%, 0.15);
+}
+
 /* HOME */
 .home {
   background-color: var(--bg-color);
