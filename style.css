@@ -315,7 +315,7 @@
 }
 .collection__title {
   font-size: var(--h1-font-size);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.75rem;
 }
 .collection__explore {
   display: grid;
@@ -327,4 +327,10 @@
   grid-template-columns: 230px max-content;
   bottom: 1rem;
   margin-right: 5rem;
+}
+
+.collection__explore:nth-child(1) {
+  grid-template-columns: max-content 230px;
+  top: 0;
+  margin-left: 5rem;
 }
