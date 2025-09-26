@@ -319,6 +319,7 @@
 }
 .collection__explore {
   display: grid;
+  column-gap: 3rem;
   margin-bottom: 2rem;
   position: absolute;
 }
@@ -333,4 +334,27 @@
   grid-template-columns: max-content 230px;
   top: 0;
   margin-left: 5rem;
+}
+
+.collection__data-men {
+  margin-top: 2.5rem;
+}
+.collection__data-women {
+  align-self: self-end;
+  margin-bottom: 2.5rem;
+}
+
+.collection__link {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.collection__link i {
+  font-size: 1rem;
+  transition: 0.1s;
+}
+.collection__link:hover i {
+  transform: translateY(0.3rem);
 }
