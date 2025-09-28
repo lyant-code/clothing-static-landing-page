@@ -358,3 +358,24 @@
 .collection__link:hover i {
   transform: translateY(0.3rem);
 }
+
+/* Products  */
+.products__container {
+  padding-bottom: 5rem;
+}
+.products__card {
+  width: 271px;
+}
+
+.products__img {
+  margin-bottom: 1.3rem;
+}
+
+.products__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.7rem;
+}
+.products__price {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
